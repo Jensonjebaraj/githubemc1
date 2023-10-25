@@ -20,5 +20,15 @@ nav li:hover{
 
 
 .s-1-d{
-    background-image: url(assets/images/New\ Project.jpg);
+    background-image: url(../../assets/images/New\ Project.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+@media (max-width:576px){
+    .s-1-d{
+        height: 300px;
+    }
 }

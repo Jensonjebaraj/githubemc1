@@ -1,0 +1,24 @@
+.i-img{
+    width: 100px;
+}
+
+
+
+nav li:hover{
+    background-color: brown;
+}
+
+
+.s-b-i{
+    position: relative;
+    top: 5px;
+    border: transparent;
+    border-radius: 25px;
+    right: 42px;
+    background: transparent;
+}
+
+
+.s-1-d{
+    background-image: url(assets/images/New\ Project.jpg);
+}

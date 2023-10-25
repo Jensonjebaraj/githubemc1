@@ -19,16 +19,37 @@ nav li:hover{
 }
 
 
-.s-1-d{
+.sec-1{
     background-image: url(../../assets/images/New\ Project.jpg);
     height: 500px;
     width: 100%;
     background-size: cover;
     background-size: 100% 100%;
+    padding: 205px 0px 0px 70px;
+}
+
+.sec-1 h1{
+    font-size: 5rem;
+}
+
+.sec-1 p{
+    font-size: 1.5rem;
 }
 
 @media (max-width:576px){
-    .s-1-d{
+    .sec-1{
         height: 300px;
+        padding: 120px 0px 0px 35px;
+    }
+    .sec-1 h1{
+        font-size: 1.5rem;
+        padding-top: 0px;
+    }
+    .sec-1 div div{
+        width: 350px;
+    }
+    .sec-1 p{
+        font-size: 1rem;
     }
 }
+

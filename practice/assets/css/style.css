@@ -76,6 +76,36 @@ nav li:hover{
     width: 80px;
 }
 
+.sec-4-1{
+    background-image: url(../images/sec-4\ bg-1.jpg);
+    height: 930px;
+    width: 100%;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.sec-4-2{
+    background-image: url(../images/sec-4\ bg-2.jpg);
+    height: 920px;
+    width: 100%;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.sec-4-img{
+    width: 100%;
+}
+
+.sec-4-1 p{
+    font-size: 1.5em;
+    width: 565px;
+}
+
+.sec-4-2 p{
+    font-size: 1.5em;
+    width: 565px;
+}
+
 @media (max-width:576px){
     .sec-1{
         height: 300px;
@@ -108,6 +138,12 @@ nav li:hover{
     .sec-3-bg-2{
         margin: 0px;
         padding-bottom: 30px;
+    }
+    .sec-4-1,.sec-4-2{
+        height: 1180px;
+    }
+    .sec-4-2-1{
+        height: 460px;
     }
 }
 

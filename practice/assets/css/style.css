@@ -136,6 +136,30 @@ nav li:hover{
     font-size: 3.5em;
 }
 
+.sec-7{
+    background-image: url(../images/sec-7\ bg.jpg);
+    width: 100%;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.sec-7 h1{
+    font-size: 3.5em;
+}
+.sec-7 p{
+    font-size: 2em;
+    width: 905px;
+}
+
+.sec-7 input{
+    border: none;
+    width: 400px;
+}
+
+.sec-7 button{
+    border: none;
+}
+
 @media (max-width:576px){
     .sec-1{
         height: 300px;
@@ -200,6 +224,27 @@ nav li:hover{
     }
     .sec-6 h1{
         font-size: 2.5em;
+    }
+    .sec-7 h1{
+        padding: 0px !important;
+        font-size: 2.5em;
+    }
+    .sec-7 p{
+        font-size: 1.2em;
+        width: 525px;
+        padding: 0px !important;
+    }
+    .sec-7 input{
+        height: 35px;
+        border: none;
+        width: 400px;
+    }
+    .s7-b{
+        margin: auto;
+        padding-top: 10px;
+    }
+    .sec-7 form{
+        padding: 0px !important;
     }
 }
 

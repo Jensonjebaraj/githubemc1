@@ -160,6 +160,10 @@ nav li:hover{
     border: none;
 }
 
+.footer{
+    font-size: 1.5em;
+}
+
 @media (max-width:576px){
     .sec-1{
         height: 300px;
